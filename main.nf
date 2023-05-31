@@ -76,7 +76,7 @@ process MULTIQC {
 
     script:
     """
-    multiq .
+    multiqc .
     """
 }
 
